@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-project_id=os.getenv("project_id")
-project_region=os.getenv("region")
+project_id=os.getenv("PROJECT_ID")
+project_region=os.getenv("REGION")
 
 #Authenticate and initialize Vertex AI
 vertexai.init(project=project_id, location=project_region)
