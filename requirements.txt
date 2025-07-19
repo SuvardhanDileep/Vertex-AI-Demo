@@ -1,0 +1,4 @@
+google-cloud-aiplatform
+streamlit
+python-dotenv
+altair
